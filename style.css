@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+header .container{
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 2px rgb(199, 198, 198);
+    font-size: smaller;
+    letter-spacing: 2px;
+    font-weight: 550;
+    color: black;
+    position: fixed;
+    z-index: 1000;
+}
+ header .flex-container{
+    display: flex;
+    justify-content: flex-end;
+ margin-top: 30px ;
+}
+header  .flex-item1{
+float: left ;
+ margin-top:20px;
+ margin-left: 40px;
+ 
+}
+ .flex-container >.flex-item{
+  float: right ;
+    margin-bottom: 8px;
+    margin-right: 30px;
+    padding: 5px;
+}
+
+main .container{
+    margin: 0 auto;
+    width: 70%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    margin-top: -25px;
+}
+.br{
+    margin-top: -12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: white;
+    height: 600px;
+    background-image: url(../IMG-20240218-WA0051.jpg);
+    background-position: center;
+}
+.Projects{
+    padding-top: 40px;
+    padding-bottom: 35px;
+  font-weight: 500;
+  
+}
+main .flex-container{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+.div1{
+    width: 230px;
+    height: 260px;
+    background-image: url(../IMG-20240218-WA0055.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.div2{
+    width: 230px;
+    height: 260px;
+    background-image: url(../IMG-20240218-WA0054.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.div3{
+    width: 230px;
+    height: 260px;
+    background-image: url(../IMG-20240218-WA0056.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.div4{
+    width: 230px;
+    height: 260px;
+    background-image: url(../IMG-20240218-WA0052.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+main .flex-container1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+   height: 170px;
+    justify-content: space-between;
+    
+    
+}
+ .div5{
+    width: 230px;
+    height: 260px;
+    background-image: url(../IMG-20240218-WA0054.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.div6{
+    width: 230px;
+    height: 260px;
+    background-image: url(../IMG-20240218-WA0055.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.div7{
+    width: 230px;
+    height: 260px;
+    background-image: url(../IMG-20240218-WA0052.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.div8{
+    width: 230px;
+    height: 260px;
+    background-image: url(../IMG-20240218-WA0056.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+} 
+span{
+    background-color: black;
+    color: white;
+   padding: 7px;
+    line-height: 1.5px;
+    font-size: xx-small;
+    font-weight: 500;
+}
+.About{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  font-weight: 500;
+}
+p{
+    text-align: justify;
+    font-size: x-small;
+    font-weight: 550;
+    margin-bottom: 30px;
+} 
+main .flex-container2{
+    width: 25%%;
+    display: flex;
+
+}
+
+.flex-container2 img{
+    width: 230px;
+    height: 160px;
+    position: relative;
+    filter: grayscale(80%)
+}
+.pic1, .pic2, .pic3{
+    margin-right: 10px;
+}
+hr{
+    border-color: rgba(223, 215, 215, 0.11) ;
+}
+button{
+    border: none;
+    background-color: rgba(179, 176, 176, 0.288);
+    width: 230px;
+    text-align: center;
+    padding: 8px 16px;
+}
+.Contact{
+    padding-top:70px;
+    padding-bottom: 25px;
+  font-weight: 500;
+}
+.form{
+    margin-bottom: 10px;
+    display: block;
+    padding: 8px;
+    width: 100%;
+}
+.msg{
+    background-color: black !important;
+    color: white !important;
+    display: inline ;
+    padding: 10px ;
+    width: 14%;
+    margin: 20px 0px;
+    text-align: center;
+}
+footer .container{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 0;
+        background-color: black;
+    color: white;
+    height: 55px;
+}
+footer p{
+    text-align: center;
+    padding: 20px;
+   
+}
+footer p a{
+    color: white;
+    text-decoration: underline;
+}
